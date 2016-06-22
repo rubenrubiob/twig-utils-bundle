@@ -1,0 +1,23 @@
+{
+    "name": "rrb/twig-utils-bundle",
+    "description": "A Symfony bundle with some twig utilities",
+    "keywords": [ "twig", "utils", "lazy-loading", "images", "pictures"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": ">=3.0"
+    },
+    "autoload": {
+        "exclude-from-classmap": ["/Tests/"],
+        "psr-4": {
+            "rubenrubiob\\TwigUtilsBundle\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Rubén Rubio Barrera",
+            "email": "ruben.rubio.barrera@gmail.com"
+        }
+    ]
+}

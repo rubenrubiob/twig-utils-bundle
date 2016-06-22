@@ -1,0 +1,6 @@
+services:
+    rrb_twig_utils.twig_extension:
+        class: Rrb\TwigUtilsBundle\Twig\RrbTwigUtilsExtension
+        public: false
+        tags:
+            - { name: twig.extension }

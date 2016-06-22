@@ -1,0 +1,10 @@
+.lazy-image{
+    opacity:0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    max-width: 100%
+}
+.lazy-image-wrapper{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
