@@ -72,6 +72,8 @@ the low-resolution image should be at most 10px width by 10px height.
 The low-resolution image is rendered as a background of a `<div>` that
 wraps the `<img>` tag.
 
+You can see a demo [here](http://twig-demo.rubenrubiob.me) .
+
 
 ### lazy_image_render
 
